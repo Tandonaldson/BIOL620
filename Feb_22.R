@@ -1,8 +1,0 @@
-#Author: Tanesha Donaldson, Date: Feb 22, 2022, Purpose: To generate box plots for raw microarray datasets
-
-setwd("C:/Users/Tanesha/Desktop/10_CEL_Files")
-library(affy)
-eset <- ReadAffy()
-
-#Box plots for raw datasets
-boxplot(eset)
